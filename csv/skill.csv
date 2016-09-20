@@ -1,0 +1,6 @@
+ID,技能施放时间,技能目标,技能目标数量,技能效果,技能数据
+number,number,number,number,number,number
+ID,skillTime,skillTarget,targetNum,skillEffect,skillDatas
+1,0,0,1,3,100
+2,1,1,6,6,500
+3,1,2,6,0,-1000
