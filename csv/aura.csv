@@ -1,4 +1,5 @@
 ID,光环目标,光环效果,光环效果数值,说明
 number,number,number,number,number
 ID,auraTarget,auraEffect,auraDatas,comment
-1,0,3,3,附近友军防御提高200%
+1,1,0,5,附近友军攻击提高5点
+2,0,2,-100000,免疫射击伤害
