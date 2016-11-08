@@ -1,4 +1,4 @@
-ID,地图名字
-number,string
-ID,name
-1,a.map
+ID,地图名字,初始英雄坐标,初始英雄编号
+number,string,string,string
+ID,name,heroPos,heroID
+1,a.map,11$16,21$21
