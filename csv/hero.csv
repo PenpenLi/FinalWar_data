@@ -21,4 +21,4 @@ ID,name,canControl,canMove,hp,shield,threat,attack,shoot,cost,skills,auras,comme
 18,ai_3,1,1,5,5,1,5,5,3,,,
 19,ai_4,1,1,6,6,1,6,6,4,,,
 20,ai_5,1,1,7,7,1,7,7,5,,,
-21,base,0,0,30,0,0,5,5,0,,,
+21,base,0,0,30,0,0,0,0,0,3$4$5,3,
