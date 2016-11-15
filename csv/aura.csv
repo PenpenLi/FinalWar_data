@@ -4,3 +4,4 @@ ID,auraTarget,auraEffect,auraDatas,comment
 1,1,0,5,附近友军攻击提高5点
 2,0,2,-100000,免疫射击伤害
 3,0,3,,被突袭时不会受到双倍伤害
+4,2,4,,沉默
