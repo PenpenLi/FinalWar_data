@@ -4,6 +4,7 @@ atk 1
 sht 2
 
 threat 3
+root -3
 
 1 16
 2 24
