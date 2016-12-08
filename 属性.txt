@@ -2,16 +2,16 @@ shield   x*2
 hp       x*1
 attack   x*1
 shoot    3
-support  4
-counter  4
+support  3
+counter  3
 root     0
 
+levelUp  2
 
+1 12
+2 18
+3 24
+4 30
+5 36
 
-1 16
-2 24
-3 32
-4 40
-5 48
-
-可操作单位 属性值为不可操作单位的3/4
+可操作单位 属性值为不可操作单位的5/6
