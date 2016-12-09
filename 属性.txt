@@ -6,8 +6,6 @@ support  3
 counter  3
 root     0
 
-levelUp  2
-
 1 12
 2 18
 3 24
