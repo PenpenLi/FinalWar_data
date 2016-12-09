@@ -5,3 +5,4 @@ ID,auraTarget,auraEffect,auraDatas,comment
 2,0,2,-100000,免疫射击伤害
 3,0,3,,被突袭时不会受到双倍伤害
 4,2,4,,沉默
+5,2,5,,附近敌军无法恢复护甲
