@@ -19,3 +19,4 @@ ID,skillTime,priority,skillTarget,targetNum,skillEffect,skillDatas,comment
 16,9,,0,1,5,,占领后恢复所有生命值
 17,2,,2,1,7,,射击后目标无法恢复护甲
 18,1,,0,1,8,1,战吼:摸一张牌
+19,2,,2,1,10,,射击后定身

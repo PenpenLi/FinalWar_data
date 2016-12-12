@@ -4,6 +4,7 @@ attack   x*1
 shoot    3
 support  3
 counter  3
+help     4
 root     0
 
 1 12
