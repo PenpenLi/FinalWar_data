@@ -1,10 +1,11 @@
 shield   x*2
 hp       x*1
 attack   x*1
+
 shoot    3
 support  3
 counter  3
-help     4
+help     5
 root     0
 
 1 12
