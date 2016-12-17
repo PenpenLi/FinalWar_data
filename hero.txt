@@ -1,17 +1,18 @@
-shield   x*2
-hp       x*1
-attack   x*1
+shield   x*5
+hp       x*2
+attack   x*2
 
-shoot    3
-support  3
-counter  3
-help     5
-root     0
+shoot    6
+support  5
+counter  4
+help     10
+throw    4
 
-1 12
-2 18
-3 24
-4 30
-5 36
 
-可操作单位 属性值为不可操作单位的5/6
+1 30
+2 40
+3 50
+4 60
+5 70
+
+可操作单位 属性值为不可操作单位的4/5
