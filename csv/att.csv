@@ -7,3 +7,4 @@ ID,type,attack,shield,hp
 3,Counter,4,5,2
 4,Help,5,5,2
 5,Throw,6,4,2
+6,Attacker,5,4,2
