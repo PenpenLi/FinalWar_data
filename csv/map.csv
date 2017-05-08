@@ -1,5 +1,5 @@
 ID,地图名字,初始英雄坐标,初始英雄编号
 number,string,string,string
 ID,name,heroPos,heroID
-1,a.map,11$16,21$21
-2,b.map,23$29,21$21
+1,a.map,11$16,1$1
+2,b.map,23$29,1$1
