@@ -1,8 +1,4 @@
-ID,光环目标,光环效果,光环效果数值,说明
-number,number,number,number,number
-ID,auraTarget,auraEffect,auraDatas,comment
-1,1,0,5,附近友军攻击提高5点
-2,0,2,-100000,免疫射击伤害
-3,0,4,,被突袭时不会受到双倍伤害
-4,2,5,,沉默
-5,2,6,,附近敌军无法恢复护甲
+ID,光环效果,光环效果数值,说明
+int,int,int,string
+ID,auraEffect,auraData,comment
+1,0,2,附近友军攻击提高2点
