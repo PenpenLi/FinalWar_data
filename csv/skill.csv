@@ -2,3 +2,6 @@ ID,是否暂停1回合,技能效果,技能数据,说明
 int,bool,int,int,string
 ID,isStop,skillEffect,skillData,comment
 1,1,0,3,造成3点伤害
+2,1,1,3,造成3点HP伤害
+3,1,7,,沉默
+4,1,8,-2,速度减2
