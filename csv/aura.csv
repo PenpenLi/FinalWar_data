@@ -6,3 +6,4 @@ ID,eventName,auraType,auraTarget,auraData,comment
 3,attack,2,3,5,攻击对象速度减1
 4,roundStart,2,1,6,回合开始时附近友军士气提高3点
 5,attack,2,3,7,攻击对象士气降低3
+6,fixFear,1,0,0,无畏
