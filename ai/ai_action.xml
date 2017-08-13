@@ -1,32 +1,165 @@
-<select>
-	<sequence>
-		<condition type="CheckHeroTypeConditionNode" value="1"/>
-		<random>
-			<sequence randomValue="5">
-				<condition type="CheckHeroCanBeAttackConditionNode"/>
-				<action type="DefenseActionNode"/>
-			</sequence>
-			<sequence randomValue="2">
-				<condition type="GetCanAttackHeroPosConditionNode"/>
-				<action type="ChooseTargetActionNode" value="GetCanAttackHeroPosConditionNode"/>
-			</sequence>
-			<sequence randomValue="1">
-				<condition type="GetCanAttackPosConditionNode"/>
-				<action type="ChooseTargetActionNode" value="GetCanAttackPosConditionNode"/>
-			</sequence>
-		</random>
-	</sequence>
-	<sequence>
-		<condition type="CheckHeroTypeConditionNode" value="2"/>
-	</sequence>
-	<sequence>
-		<condition type="CheckHeroTypeConditionNode" value="3"/>
-	</sequence>
-	<sequence>
-		<condition type="CheckHeroTypeConditionNode" value="4"/>
-	</sequence>
-	<sequence>
-		<condition type="CheckHeroTypeConditionNode" value="5"/>
-	</sequence>
-</select>
-	
+<sequence>
+	<condition type="CheckHeroCanActionConditionNode"/>
+	<select>
+		<sequence>
+			<condition type="CheckHeroTypeConditionNode" value="2"/>
+			<select>
+				<random>
+					<sequence randomValue="5">
+						<condition type="CheckHeroCanBeAttackConditionNode"/>
+						<action type="DefenseActionNode"/>
+					</sequence>
+					<sequence randomValue="2">
+						<condition type="GetCanAttackHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="GetCanAttackPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="2">
+						<condition type="CheckHeroCanShootConditionNode"/>
+						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="GetCanSupportHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="GetCanSupportPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportPosConditionNode"/>
+					</sequence>
+				</random>
+				<action type="MoveForwardActionNode"/>
+			</select>
+		</sequence>
+		<sequence>
+			<condition type="CheckHeroTypeConditionNode" value="3"/>
+			<select>
+				<random>
+					<sequence randomValue="2">
+						<condition type="CheckHeroCanBeAttackConditionNode"/>
+						<action type="DefenseActionNode"/>
+					</sequence>
+					<sequence randomValue="2">
+						<condition type="GetCanAttackHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="GetCanAttackPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="3">
+						<condition type="CheckHeroCanShootConditionNode"/>
+						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+					</sequence>
+					<sequence randomValue="4">
+						<condition type="GetCanSupportHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="3">
+						<condition type="GetCanSupportPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportPosConditionNode"/>
+					</sequence>
+				</random>
+				<action type="MoveForwardActionNode"/>
+			</select>
+		</sequence>
+		<sequence>
+			<condition type="CheckHeroTypeConditionNode" value="4"/>
+			<select>
+				<random>
+					<sequence randomValue="2">
+						<condition type="CheckHeroCanBeAttackConditionNode"/>
+						<action type="DefenseActionNode"/>
+					</sequence>
+					<sequence randomValue="2">
+						<condition type="GetCanAttackHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="GetCanAttackPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="3">
+						<condition type="CheckHeroCanShootConditionNode"/>
+						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+					</sequence>
+					<sequence randomValue="4">
+						<condition type="GetCanSupportHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="3">
+						<condition type="GetCanSupportPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportPosConditionNode"/>
+					</sequence>
+				</random>
+				<action type="MoveForwardActionNode"/>
+			</select>
+		</sequence>
+		<sequence>
+			<condition type="CheckHeroTypeConditionNode" value="5"/>
+			<select>
+				<random>
+					<sequence randomValue="2">
+						<condition type="CheckHeroCanBeAttackConditionNode"/>
+						<action type="DefenseActionNode"/>
+					</sequence>
+					<sequence randomValue="5">
+						<condition type="GetCanAttackHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="4">
+						<condition type="GetCanAttackPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="3">
+						<condition type="CheckHeroCanShootConditionNode"/>
+						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="GetCanSupportHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="GetCanSupportPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportPosConditionNode"/>
+					</sequence>
+				</random>
+				<action type="MoveForwardActionNode"/>
+			</select>
+		</sequence>
+		<sequence>
+			<condition type="CheckHeroTypeConditionNode" value="6"/>
+			<select>
+				<random>
+					<sequence randomValue="2">
+						<condition type="CheckHeroCanBeAttackConditionNode"/>
+						<action type="DefenseActionNode"/>
+					</sequence>
+					<sequence randomValue="5">
+						<condition type="GetCanAttackHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="4">
+						<condition type="GetCanAttackPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanAttackPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="3">
+						<condition type="CheckHeroCanShootConditionNode"/>
+						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="GetCanSupportHeroPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="GetCanSupportPosConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanSupportPosConditionNode"/>
+					</sequence>
+				</random>
+				<action type="MoveForwardActionNode"/>
+			</select>
+		</sequence>
+	</select>
+</sequence>
