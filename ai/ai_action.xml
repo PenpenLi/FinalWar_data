@@ -19,7 +19,8 @@
 					</sequence>
 					<sequence randomValue="2">
 						<condition type="CheckHeroCanShootConditionNode"/>
-						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+						<condition type="GetCanShootHeroPosConditionConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanShootHeroPosConditionConditionNode"/>
 					</sequence>
 					<sequence randomValue="1">
 						<condition type="GetCanSupportHeroPosConditionNode"/>
@@ -51,7 +52,8 @@
 					</sequence>
 					<sequence randomValue="3">
 						<condition type="CheckHeroCanShootConditionNode"/>
-						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+						<condition type="GetCanShootHeroPosConditionConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanShootHeroPosConditionConditionNode"/>
 					</sequence>
 					<sequence randomValue="4">
 						<condition type="GetCanSupportHeroPosConditionNode"/>
@@ -83,7 +85,8 @@
 					</sequence>
 					<sequence randomValue="3">
 						<condition type="CheckHeroCanShootConditionNode"/>
-						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+						<condition type="GetCanShootHeroPosConditionConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanShootHeroPosConditionConditionNode"/>
 					</sequence>
 					<sequence randomValue="4">
 						<condition type="GetCanSupportHeroPosConditionNode"/>
@@ -115,7 +118,8 @@
 					</sequence>
 					<sequence randomValue="3">
 						<condition type="CheckHeroCanShootConditionNode"/>
-						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+						<condition type="GetCanShootHeroPosConditionConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanShootHeroPosConditionConditionNode"/>
 					</sequence>
 					<sequence randomValue="1">
 						<condition type="GetCanSupportHeroPosConditionNode"/>
@@ -147,7 +151,8 @@
 					</sequence>
 					<sequence randomValue="3">
 						<condition type="CheckHeroCanShootConditionNode"/>
-						<action type="ChooseTargetActionNode" value="CheckHeroCanShootConditionNode"/>
+						<condition type="GetCanShootHeroPosConditionConditionNode"/>
+						<action type="ChooseTargetActionNode" value="GetCanShootHeroPosConditionConditionNode"/>
 					</sequence>
 					<sequence randomValue="1">
 						<condition type="GetCanSupportHeroPosConditionNode"/>
