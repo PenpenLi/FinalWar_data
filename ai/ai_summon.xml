@@ -12,11 +12,11 @@
 				<random>
 					<sequence randomValue="3">
 						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="1">
 						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
@@ -25,11 +25,11 @@
 				<random>
 					<sequence randomValue="1">
 						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="2">
 						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
@@ -38,11 +38,11 @@
 				<random>
 					<sequence randomValue="1">
 						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="2">
 						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
@@ -51,11 +51,11 @@
 				<random>
 					<sequence randomValue="2">
 						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="1">
 						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
@@ -64,11 +64,11 @@
 				<random>
 					<sequence randomValue="2">
 						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="1">
 						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode"/>
+						<action type="SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
