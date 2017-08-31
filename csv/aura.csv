@@ -1,9 +1,9 @@
-ID,触发事件名,光环条件,光环条件数值,光环类型(0修正int 1修正bool 2施放技能),光环目标(0 自己 1友军 2敌军 3触发者),光环数值,说明
-int,string,int,int,int[],string
-ID,eventName,auraCondition,auraConditionData,auraType,auraTarget,auraData,comment
-1,fixAttack,,,0,1,2,附近友军攻击提高2点
-2,fixCanMove,,,1,2,0,附近敌军无法移动
-3,attack,,,2,3,5,攻击对象速度减1
-4,roundStart,,,2,1,6,回合开始时附近友军士气提高3点
-5,attack,,,2,3,7,攻击对象士气降低3
-6,fixFear,,,1,0,0,无畏
+ID,触发事件名,光环触发者,光环条件,光环条件对象,光环条件数值,光环类型(0修正int 1修正bool 2施放技能),光环效果目标(1光环拥有者 2光环拥有者附近友军 3光环拥有者附近敌军 4触发者 5触发者的目标),光环数值,说明
+int,string,int,int,int[],int,int,int,int[],string
+ID,eventName,auraTrigger,auraCondition,auraConditionTarget,auraConditionData,auraType,auraTarget,auraData,comment
+1,fixAttack,2,0,,0,0,0,2,附近友军攻击提高2点
+2,fixCanMove,3,0,,0,1,0,0,附近敌军无法移动
+3,attack,1,0,,0,2,4,5,攻击对象速度减1
+4,roundStart,0,0,,0,2,1,6,回合开始时附近友军士气提高3点
+5,attack,1,0,,0,2,4,7,攻击对象士气降低3
+6,fixFear,1,0,,0,1,0,0,无畏
