@@ -2,8 +2,9 @@ ID,名字,图标,类型,生命值,护甲,攻击,费用,技能,光环,说明
 int,string,string,int,int,int,int,int,int,int,string
 ID,name,icon,heroType,hp,shield,attack,cost,skill,auras,comment
 1,Base,caocao,1,30,5,0,0,,,
-2,1,caocao,2,8,5,1,1,4,4$6,
-3,2,caocao,3,8,5,1,1,4,5,
-4,3,caocao,4,8,5,1,1,4,3,
-5,4,caocao,5,8,5,1,1,4,3,
-6,5,caocao,6,8,5,1,1,4,3,
+2,1,caocao,2,8,5,1,1,,,
+3,2,caocao,3,8,5,1,1,,,
+4,3,caocao,4,8,5,1,1,,,
+5,4,caocao,5,8,5,1,1,,,
+6,5,caocao,6,8,5,1,1,,,
+7,6,caocao,7,8,5,1,1,,,
