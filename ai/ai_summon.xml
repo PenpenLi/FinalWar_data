@@ -72,6 +72,32 @@
 					</sequence>
 				</random>
 			</sequence>
+			<sequence>
+				<condition type="CheckSummonHeroTypeConditionNode" value="7"/>
+				<random>
+					<sequence randomValue="3">
+						<condition type="ChooseSummonPosConditionNode" value="1"/>
+						<action type="SummonActionNode" value="1"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="ChooseSummonPosConditionNode" value="2"/>
+						<action type="SummonActionNode" value="2"/>
+					</sequence>
+				</random>
+			</sequence>
+			<sequence>
+				<condition type="CheckSummonHeroTypeConditionNode" value="8"/>
+				<random>
+					<sequence randomValue="1">
+						<condition type="ChooseSummonPosConditionNode" value="1"/>
+						<action type="SummonActionNode" value="1"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="ChooseSummonPosConditionNode" value="2"/>
+						<action type="SummonActionNode" value="2"/>
+					</sequence>
+				</random>
+			</sequence>
 		</select>
 	</sequence>
 </sequence>
