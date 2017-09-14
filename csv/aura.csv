@@ -7,3 +7,6 @@ ID,eventName,auraTrigger,auraCondition,auraConditionTarget,auraConditionData,aur
 4,roundStart,0,0,,0,2,1,6,回合开始时附近友军士气提高3点
 5,attack,1,0,,0,2,4,7,攻击对象士气降低3
 6,fixFear,1,0,,0,1,0,0,无畏
+7,fixAttack,1,1,1,0,0,1,5,受伤后攻击提高5点
+8,fixAttack,1,7,1,1,0,1,5,附近敌军多于1人时攻击提高5点
+9,attack,1,3,1$5,0,2,5,8,攻击等级低于自己的敌人后使其无法回复士气
