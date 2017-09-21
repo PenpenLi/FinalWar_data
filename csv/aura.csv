@@ -11,3 +11,4 @@ ID,eventName,eventPriority,triggerTarget,conditionCompare,conditionType,conditio
 8,fixAttack,,1,2,6$0,1$1,0$1,0,1,,5,附近敌军多于1人时攻击提高5点
 9,attack,,1,2,3$3,1$5,,2,5,,8,攻击等级低于自己的敌人后使其无法回复士气
 10,roundOver,,0,,,,,2,2,1,9,回合结束后使附近1个友军攻击提高5点
+11,captureMapArea,,1,,,,,2,1,,10,占领后速度提高2点
