@@ -1,6 +1,6 @@
 ID,触发事件名,触发优先级,光环触发者,光环比较符号,光环条件,光环条件对象,光环条件数值,光环效果类型(0修正int 1修正bool 2施放技能),光环效果目标(0光环拥有者 1光环拥有者附近友军 2光环拥有者附近敌军 3触发者 4触发者的目标 5光环拥有者附近单位),光环效果目标数量,光环数值,光环删除事件,描述,说明
 int,string,int,int,int,int[],int[],int[],int,int[],int[],int[],string[],string,string
-ID,eventName,eventPriority,triggerTarget,conditionCompare,conditionType,conditionTarget,conditionData,effectType,effectTarget,effectTargetNum,effectData,removeEventNames,desc,comment
+ID,eventName,priority,triggerTarget,conditionCompare,conditionType,conditionTarget,conditionData,effectType,effectTarget,effectTargetNum,effectData,removeEventNames,desc,comment
 1,fixAttack,,0,,,,,0,,,3,doDamage,下一次造成伤害提高3点,
 2,fixFear,,0,,,,,1,,,0,,,免疫恐惧
 3,doDamage,,0,,,,,2,4,,5,,,沉默被攻击的目标
