@@ -1,0 +1,6 @@
+ID,描述
+int,string
+ID,desc
+1,fixAttack
+2,fixFear
+3,doDamage
