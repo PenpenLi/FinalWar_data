@@ -3,3 +3,5 @@ number,string,string,string
 ID,name,heroPos,heroID
 1,a.map,11$16,1$1
 2,b.map,23$29,1$1
+3,c.map,,
+4,d.map,,
