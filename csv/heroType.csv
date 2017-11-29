@@ -9,3 +9,4 @@ ID,name,attackSpeed,defenseSpeed,supportSpeed,thread,attackTimes,fearValue,fearT
 6,刺客,0,0,0,5,2,1,0,3,1
 7,武士,0,1,0,5,1,1,0,1,3
 8,贵族,0,0,0,5,1,2,0,1,1
+9,平民,0,0,0,5,1,1,0,1,1
