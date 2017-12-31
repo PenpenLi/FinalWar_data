@@ -24,3 +24,8 @@ ID,name,icon,heroType,hp,shield,attack,cost,shootSkills,supportSkills,auras,comm
 2000,士兵A,caocao,13,8,0,3,5,,,,
 2001,士兵B,caocao,2,2,2,2,5,,,,
 2002,士兵C,caocao,3,2,2,2,5,,,,
+2003,士兵B,caocao,7,2,2,2,5,,,,
+2004,士兵C,caocao,9,2,2,2,5,,,,
+2005,士兵A,caocao,10,8,3,1,5,,,,
+2006,士兵B,caocao,9,2,2,2,5,,,,
+2007,士兵C,caocao,6,2,3,1,5,,,,
