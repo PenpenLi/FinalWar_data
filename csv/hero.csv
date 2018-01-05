@@ -35,3 +35,9 @@ ID,name,icon,heroType,hp,shield,attack,cost,shootSkills,supportSkills,auras,comm
 2011,士兵D,caocao,9,3,3,5,4,,,,
 2012,士兵E,caocao,9,2,3,3,2,,,,
 2013,士兵F,caocao,5,3,3,3,3,,,,
+2014,士兵A,caocao,10,2,4,2,3,,,,
+2015,士兵B,caocao,15,5,5,5,5,,,,
+2016,士兵C,caocao,15,2,4,2,3,,,,
+2017,士兵D,caocao,9,3,3,3,3,,,,
+2018,士兵E,caocao,9,2,2,2,2,1002,,,射击：使目标速度降低1点
+2019,士兵F,caocao,9,3,3,3,3,,,,
