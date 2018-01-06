@@ -1,4 +1,4 @@
-ID,注释,攻击速度,防御速度,支援速度,威胁值,攻击次数,恐惧点数,恐惧类型,恐惧后攻击权重,恐惧后防御权重,tubiao
+ID,注释,攻击速度,防御速度,支援速度,威胁值,攻击次数,恐惧点数,恐惧类型,恐惧后攻击权重,恐惧后防御权重,图标
 int,string,int,int,int,int,int,int,int,int,int,string
 ID,name,attackSpeed,defenseSpeed,supportSpeed,thread,attackTimes,fearValue,fearType,fearAttackWeight,fearDefenseWeight,icon
 1,建筑,0,0,0,5,1,1,1,0,1,type1
