@@ -98,6 +98,16 @@
 					</sequence>
 				</random>
 			</sequence>
+			<random>
+				<sequence randomValue="1">
+					<condition type="ChooseSummonPosConditionNode" value="1"/>
+					<action type="SummonActionNode" value="1"/>
+				</sequence>
+				<sequence randomValue="1">
+					<condition type="ChooseSummonPosConditionNode" value="2"/>
+					<action type="SummonActionNode" value="2"/>
+				</sequence>
+			</random>
 		</select>
 	</sequence>
 </sequence>
