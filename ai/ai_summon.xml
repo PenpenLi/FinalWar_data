@@ -1,111 +1,111 @@
 <sequence>
-	<condition type="GetMoneyConditionNode"/>
+	<condition type="FinalWar.GetMoneyConditionNode"/>
 	<select>
-		<condition type="GetSummonPosToEnemyHeroListConditionNode" value="2"/>
-		<condition type="GetSummonPosToEnemyAreaListConditionNode" value="2"/>
+		<condition type="FinalWar.GetSummonPosToEnemyHeroListConditionNode" value="2"/>
+		<condition type="FinalWar.GetSummonPosToEnemyAreaListConditionNode" value="2"/>
 	</select>
 	<sequence loop="true">
-		<condition type="GetSummonHeroIdConditionNode"/>
+		<condition type="FinalWar.GetSummonHeroIdConditionNode"/>
 		<select>
 			<sequence>
-				<condition type="CheckSummonHeroTypeConditionNode" value="2"/>
+				<condition type="FinalWar.CheckSummonHeroTypeConditionNode" value="2"/>
 				<random>
 					<sequence randomValue="3">
-						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode" value="1"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="1"/>
+						<action type="FinalWar.SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="1">
-						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode" value="2"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="2"/>
+						<action type="FinalWar.SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
 			<sequence>
-				<condition type="CheckSummonHeroTypeConditionNode" value="3"/>
+				<condition type="FinalWar.CheckSummonHeroTypeConditionNode" value="3"/>
 				<random>
 					<sequence randomValue="1">
-						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode" value="1"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="1"/>
+						<action type="FinalWar.SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="2">
-						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode" value="2"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="2"/>
+						<action type="FinalWar.SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
 			<sequence>
-				<condition type="CheckSummonHeroTypeConditionNode" value="4"/>
+				<condition type="FinalWar.CheckSummonHeroTypeConditionNode" value="4"/>
 				<random>
 					<sequence randomValue="1">
-						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode" value="1"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="1"/>
+						<action type="FinalWar.SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="2">
-						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode" value="2"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="2"/>
+						<action type="FinalWar.SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
 			<sequence>
-				<condition type="CheckSummonHeroTypeConditionNode" value="5"/>
+				<condition type="FinalWar.CheckSummonHeroTypeConditionNode" value="5"/>
 				<random>
 					<sequence randomValue="2">
-						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode" value="1"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="1"/>
+						<action type="FinalWar.SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="1">
-						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode" value="2"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="2"/>
+						<action type="FinalWar.SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
 			<sequence>
-				<condition type="CheckSummonHeroTypeConditionNode" value="6"/>
+				<condition type="FinalWar.CheckSummonHeroTypeConditionNode" value="6"/>
 				<random>
 					<sequence randomValue="2">
-						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode" value="1"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="1"/>
+						<action type="FinalWar.SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="1">
-						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode" value="2"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="2"/>
+						<action type="FinalWar.SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
 			<sequence>
-				<condition type="CheckSummonHeroTypeConditionNode" value="7"/>
+				<condition type="FinalWar.CheckSummonHeroTypeConditionNode" value="7"/>
 				<random>
 					<sequence randomValue="3">
-						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode" value="1"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="1"/>
+						<action type="FinalWar.SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="1">
-						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode" value="2"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="2"/>
+						<action type="FinalWar.SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
 			<sequence>
-				<condition type="CheckSummonHeroTypeConditionNode" value="8"/>
+				<condition type="FinalWar.CheckSummonHeroTypeConditionNode" value="8"/>
 				<random>
 					<sequence randomValue="1">
-						<condition type="ChooseSummonPosConditionNode" value="1"/>
-						<action type="SummonActionNode" value="1"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="1"/>
+						<action type="FinalWar.SummonActionNode" value="1"/>
 					</sequence>
 					<sequence randomValue="1">
-						<condition type="ChooseSummonPosConditionNode" value="2"/>
-						<action type="SummonActionNode" value="2"/>
+						<condition type="FinalWar.ChooseSummonPosConditionNode" value="2"/>
+						<action type="FinalWar.SummonActionNode" value="2"/>
 					</sequence>
 				</random>
 			</sequence>
 			<random>
 				<sequence randomValue="1">
-					<condition type="ChooseSummonPosConditionNode" value="1"/>
-					<action type="SummonActionNode" value="1"/>
+					<condition type="FinalWar.ChooseSummonPosConditionNode" value="1"/>
+					<action type="FinalWar.SummonActionNode" value="1"/>
 				</sequence>
 				<sequence randomValue="1">
-					<condition type="ChooseSummonPosConditionNode" value="2"/>
-					<action type="SummonActionNode" value="2"/>
+					<condition type="FinalWar.ChooseSummonPosConditionNode" value="2"/>
+					<action type="FinalWar.SummonActionNode" value="2"/>
 				</sequence>
 			</random>
 		</select>
