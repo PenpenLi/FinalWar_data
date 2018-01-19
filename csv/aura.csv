@@ -5,6 +5,7 @@ ID,eventName,priority,triggerTarget,conditionCompare,conditionType,conditionTarg
 2,fixFear,,0,,,,,1,,,0,,,免疫恐惧
 3,doDamage,,0,,,,,2,4,,5,,,对战斗目标施加沉默效果直到回合结束
 4,triggerBornAura,,0,,,,,1,0,,0,roundOver,,沉默直到回合结束
+5,fixAttack,,0,,,,,0,0,,5$2,,,附近每有一个友军攻击力加2
 9999,fixSpeed,,6,,,,,0,3,,0$1,,,本方单位速度提高1点
 10000,roundOver,,0,,,,,2,7,1,10000,,,回合结束时，对一个随机敌军造成1点穿透伤害
 1000,fixSpeed,,1,,,,,0,3,,0$1,,,附近友军速度+1
