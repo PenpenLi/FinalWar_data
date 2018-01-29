@@ -14,3 +14,4 @@ ID,eventName,priority,triggerTarget,conditionCompare,conditionType,conditionTarg
 1003,fixSpeed,,0,,,,,0,0,,0$-1,roundOver,本回合速度降低1点,本回合速度降低1点
 1004,fixSpeed,,0,,,,,0,0,,0$1,roundOver,本回合速度提高1点,本回合速度提高1点
 1005,fixAttack,,0,,,,,0,0,,0$3,roundOver,本回合攻击提高3点,本回合攻击提高3点
+1006,roundOver,,0,,,,,2,2,,6,,,回合结束时消灭附近敌军
