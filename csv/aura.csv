@@ -14,4 +14,6 @@ ID,eventName,priority,triggerTarget,conditionCompare,conditionType,conditionTarg
 1003,fixSpeed,,0,,,,,0,0,,,,,,0$-1,roundOver,本回合速度降低1点,本回合速度降低1点
 1004,fixSpeed,,0,,,,,0,0,,,,,,0$1,roundOver,本回合速度提高1点,本回合速度提高1点
 1005,fixAttack,,0,,,,,0,0,,,,,,0$3,roundOver,本回合攻击提高3点,本回合攻击提高3点
-1006,recover,,0,,,,,2,2,,,,,,6,,,回合结束时消灭附近敌军
+1006,recover,,0,,,,,2,2,3,1$2,4$4,,,6,,,回合结束时消灭附近不满血的敌军
+1007,roundStart,,0,,,,,2,0,,,,,,2,,,回合开始时提高3点士气
+1008,fixBeAttack,,0,,,,,,,,,,,,0$3,roundOver$beDamaged,,本回合内受到的下一次攻击伤害提高3点

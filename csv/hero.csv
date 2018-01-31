@@ -21,6 +21,7 @@ ID,name,icon,heroType,hp,shield,attack,cost,shootSkills,supportSkills,auras,comm
 1008,曹操,caocao,3,4,2,2,5,,1001,1001,光环：附近友军免疫混乱\n援助：目标友军士气加3
 1009,许褚,caocao,2,5,3,4,5,,,,
 1010,魏延,caocao,9,4,4,3,4,,,1002,光环：与等级低于自己的单位战斗时速度加1
+1011,sb,caocao,9,9,3,2,1,,,,
 2000,士兵A,caocao,13,6,2,3,5,,,,
 2001,士兵B,caocao,2,2,2,2,5,,,,
 2002,士兵C,caocao,3,2,2,2,5,,,,
@@ -47,4 +48,5 @@ ID,name,icon,heroType,hp,shield,attack,cost,shootSkills,supportSkills,auras,comm
 2023,士兵D,caocao,25,3,3,3,1,,1004,,援助：使目标本回合攻击提高3点
 2024,士兵E,caocao,25,3,3,3,1,1002,,,射击：使目标本回合速度降低1点
 2025,士兵F,caocao,25,3,3,3,1,,1003,,援助：使目标本回合速度提高1点
-2026,变态A,caocao,17,1,1,1,1,,,1006,光环：回合结束时杀死附近敌军
+2026,变态A,caocao,17,3,3,3,1,,,1006,光环：回合结束时消灭附近不满血的敌军
+2027,士兵A,caocao,25,9,2,2,1,,,1007,光环：回合开始时提高3点士气
