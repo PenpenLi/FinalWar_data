@@ -24,7 +24,7 @@ ID,name,icon,heroType,hp,shield,attack,cost,shootSkills,supportSkills,auras,comm
 2017,士兵D,caocao,9,3,3,3,3,,,,
 2018,士兵E,caocao,9,2,2,2,2,1002,,,射击：使目标速度降低1点
 2019,士兵F,caocao,9,3,3,3,3,,,,
-2020,士兵A,caocao,15,5,5,1,4,,,,
+2020,士兵A,caocao,17,5,5,1,4,,,,
 2021,士兵B,caocao,15,5,5,5,5,,,,
 2022,士兵C,caocao,15,5,1,5,4,,,,
 2023,士兵D,caocao,25,3,3,3,1,,1004,,援助：使目标本回合攻击提高3点
