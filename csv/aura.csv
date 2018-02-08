@@ -5,9 +5,9 @@ ID,eventName,priority,triggerTarget,conditionCompare,conditionType,conditionTarg
 9999,fixSpeed,,6,,,,,0,3,,,,,,0$1,,本方单位速度提高1点,,本方单位速度提高1点
 10000,recover,,0,,,,,2,7,,,,,1,10000,,回合结束时，对一个随机敌军造成1点穿透伤害,,回合结束时，对一个随机敌军造成1点穿透伤害
 //配好的关卡数据,,,,,,,,,,,,,,,,,,,
-1003,fixSpeed,,0,,,,,0,0,,,,,,0$-1,roundOver,本回合速度降低1点,,本回合速度降低1点
-1004,fixSpeed,,0,,,,,0,0,,,,,,0$1,roundOver,本回合速度提高1点,,本回合速度提高1点
-1005,fixAttackDamage,,0,,,,,0,0,,,,,,0$3,roundOver,本回合攻击提高3点,,本回合攻击提高3点
+100001,fixSpeed,,0,,,,,0,0,,,,,,0$-1,roundOver,本回合速度降低1点,,本回合速度降低1点
+100002,fixSpeed,,0,,,,,0,0,,,,,,0$1,roundOver,本回合速度提高1点,,本回合速度提高1点
+100003,fixAttackDamage,,0,,,,,0,0,,,,,,0$3,roundOver,本回合攻击提高3点,,本回合攻击提高3点
 //测试数据,,,,,,,,,,,,,,,,,,,
 1,fixAttackDamage,,0,,,,,0,,,,,,,0$3,doDamage,下一次战斗伤害提高3点,,下一次战斗伤害提高3点
 2,fixFear,,0,,,,,1,,,,,,,0,,免疫恐惧,,免疫恐惧
@@ -20,3 +20,4 @@ ID,eventName,priority,triggerTarget,conditionCompare,conditionType,conditionTarg
 1000,fixSpeed,,1,,,,,0,3,,,,,,0$1,,附近友军速度+1,,附近友军速度+1
 1001,fixFear,,1,,,,,1,3,,,,,,0,,附近友军免疫混乱,,附近友军免疫混乱
 1002,fixSpeed,,0,2,3$3,0$4,,0,0,,,,,,0$1,,与等级低于自己的单位战斗时速度加1,,与等级低于自己的单位战斗时速度加1
+1003,fixBeAttackedShieldToDamage,,0,,,,,1,,,,,,,0,,对本单位进行攻击时士气无法转换为伤害值,,
