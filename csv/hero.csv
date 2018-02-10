@@ -56,4 +56,4 @@ ID,name,icon,heroType,hp,shield,attack,cost,shootSkills,supportSkills,auras,comm
 1008,曹操,caocao,3,4,2,2,5,,1001,1001,光环：附近友军免疫混乱\n援助：目标友军士气加3
 1009,许褚,caocao,2,5,3,4,5,,,,
 1010,魏延,caocao,9,4,4,3,4,,,1002,光环：与等级低于自己的单位战斗时速度加1
-1011,sb,caocao,9,9,3,2,1,,,1003,
+1011,sb,caocao,9,9,3,2,1,,,5555,光环：附近友方单位死亡后获得效果（攻击力提高2点）
