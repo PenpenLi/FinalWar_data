@@ -1,11 +1,11 @@
 ID,点击的go数组,事件数组,时间结果数组,是否结束
 int,string[],string[],bool[],bool
 ID,gameObjectNameArr,eventNameArr,eventResultArr,over
-1,HeroCard2023,battleChooseCard,1,
+1,HeroCard1006101,battleChooseCard,1,
 2,MapUnit9,battleHeroSummon,1,
-3,HeroCard2024,battleChooseCard,1,
+3,HeroCard1006102,battleChooseCard,1,
 4,MapUnit2,battleHeroSummon,1,
-5,HeroCard2025,battleChooseCard,1,
+5,HeroCard1006103,battleChooseCard,1,
 6,MapUnit6,battleHeroSummon,1,
 7,btConfirm,battleAction,1,
 8,,battleRoundOver,1,
