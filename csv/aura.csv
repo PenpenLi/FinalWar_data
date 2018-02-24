@@ -2,8 +2,12 @@ ID,触发事件名,光环效果类型(0修正int 1施放技能),光环触发者,
 int,string,int,int,int,int[],int[],int,int,int[],string[],string,string,string
 ID,eventName,effectType,triggerTarget,conditionCompare,conditionType,conditionData,effectTarget,effectTargetNum,effectData,removeEventNames,desc,hud,comment
 //pve,,,,,,,,,,,,,
-9999,fixSpeed,0,6,,,,3,,0$1,,友方英雄速度提高1点,,友方英雄速度提高1点
-10000,recover,1,0,,,,7,1,10000,,回合结束时，对一个随机敌方英雄造成1点穿透伤害,,回合结束时，对一个随机敌方英雄造成1点穿透伤害
+200001,fixSpeed,0,6,,,,3,,0$1,,友方英雄速度提高1点,,友方英雄速度提高1点
+200002,recover,1,0,,,,7,1,200001,,回合结束时，对一个随机敌方英雄造成1点穿透伤害,,回合结束时，对一个随机敌方英雄造成1点穿透伤害
+200003,fixSpeed,0,0,0,,,0,0,0$9,,速度提高9点,,速度提高9点
+200004,fixBeAttackedShieldToDamage,0,0,0,,,0,0,0$-1,,对本英雄进行攻击时士气无法转换为攻击伤害,,对本英雄进行攻击时士气无法转换为攻击伤害
+200005,recover,1,0,0,,,2,0,200002,,回合结束时，对附近满血的敌方英雄造成1点穿透伤害,,回合结束时，对附近满血的敌方英雄造成1点穿透伤害
+200006,recover,1,0,0,,,2,0,200003,,回合结束时，杀死附近不满血的敌方英雄,,回合结束时，杀死附近不满血的敌方英雄
 //配好的关卡数据,,,,,,,,,,,,,
 100001,fixSpeed,0,0,,,,0,,0$-1,roundOver,本回合速度降低1点,,本回合速度降低1点
 100002,fixSpeed,0,0,,,,0,,0$1,roundOver,本回合速度提高1点,,本回合速度提高1点
