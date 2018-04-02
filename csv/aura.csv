@@ -30,3 +30,4 @@ ID,eventName,effectType,triggerTarget,conditionCompare,conditionType,conditionDa
 1003,fixBeAttackedShieldToDamage,0,0,,,,,,0$-1,,对本英雄进行攻击时士气无法转换为伤害值,,对本英雄进行攻击时士气无法转换为伤害值
 5555,die,1,1,0,,,0,0,1002,,附近友方英雄死亡后获得效果（攻击力提高2点）,,附近友方英雄死亡后获得效果（攻击力提高2点）
 5556,fixAttackDamage,0,0,0,,,0,0,0$2,,攻击提高2点,,攻击提高2点
+5557,fixAttackDamage,0,0,0,,,0,0,10$2,,攻击力提高等于受到攻击次数乘以2,,攻击力提高等于受到攻击次数乘以2
