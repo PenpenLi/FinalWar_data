@@ -1,4 +1,4 @@
-ID,触发事件名,光环效果类型(0修正int 1施放技能),优先级,光环触发者,光环比较符号,光环条件,光环条件数值,光环效果目标(0光环拥有者 1光环拥有者附近友方英雄 2光环拥有者附近敌方英雄 3触发者 4触发者的目标 5光环拥有者附近英雄),光环效果目标数量,光环数值,光环删除事件,描述文字,HUD文字,说明
+ID,触发事件名,光环效果类型(0修正int 1施放技能 2赋值int),优先级,光环触发者,光环比较符号,光环条件,光环条件数值,光环效果目标(0光环拥有者 1光环拥有者附近友方英雄 2光环拥有者附近敌方英雄 3触发者 4触发者的目标 5光环拥有者附近英雄),光环效果目标数量,光环数值,光环删除事件,描述文字,HUD文字,说明
 int,string,int,int,int,int,int[],int[],int,int,int[],string[],string,string,string
 ID,eventName,effectType,priority,triggerTarget,conditionCompare,conditionType,conditionData,effectTarget,effectTargetNum,effectData,removeEventNames,desc,hud,comment
 //通用,,,,,,,,,,,,,,
