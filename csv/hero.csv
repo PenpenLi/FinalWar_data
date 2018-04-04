@@ -63,3 +63,4 @@ ID,name,icon,heroType,hp,shield,attack,cost,shootSkills,supportSkills,auras,feat
 1011,sb,caocao,9,9,3,2,1,,,5555,,光环：附近友方单位死亡后获得效果（攻击力提高2点）
 1012,ss,caocao,9,6,3,3,3,,,5557,,光环：攻击力提高等于受到攻击次数乘以2
 1013,sd,caocao,5,6,3,3,3,,,5557,,光环：攻击力提高等于受到攻击次数乘以2
+1014,sg,caocao,5,6,3,3,3,,,,6666,特性：攻击力等于生命值
