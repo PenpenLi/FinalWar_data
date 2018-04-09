@@ -17,6 +17,7 @@ ID,eventName,effectType,priority,triggerTarget,conditionCompare,conditionType,co
 100001,fixSpeed,0,,0,,,,0,,0$-1,recover,本回合速度降低1点,,本回合速度降低1点
 100002,fixSpeed,0,,0,,,,0,,0$1,recover,本回合速度提高1点,,本回合速度提高1点
 100003,fixAttackDamage,0,,0,,,,0,,0$3,recover,本回合攻击提高3点,,本回合攻击提高3点
+//英雄数据
 //测试数据,,,,,,,,,,,,,,
 1,fixAttackDamage,0,,0,,,,,,0$3,doDamage,下一次攻击伤害提高3点,,下一次攻击伤害提高3点
 2,fixFear,0,,0,,,,,,0$-1,,免疫恐惧,,免疫恐惧
