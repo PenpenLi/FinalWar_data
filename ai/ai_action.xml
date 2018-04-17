@@ -232,5 +232,38 @@
 				<action type="FinalWar.MoveForwardActionNode" value="3"/>
 			</select>
 		</sequence>
+		<sequence>
+			<condition type="FinalWar.CheckHeroTypeConditionNode" value="9"/>
+			<select>
+				<random>
+					<sequence randomValue="4">
+						<condition type="FinalWar.CheckHeroCanBeAttackConditionNode"/>
+						<action type="FinalWar.DefenseActionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="FinalWar.GetCanAttackHeroPosConditionNode"/>
+						<action type="FinalWar.ChooseTargetActionNode" value="GetCanAttackHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="FinalWar.GetCanAttackPosConditionNode"/>
+						<action type="FinalWar.ChooseTargetActionNode" value="GetCanAttackPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="2">
+						<condition type="FinalWar.CheckHeroCanShootConditionNode"/>
+						<condition type="FinalWar.GetCanShootHeroPosConditionConditionNode"/>
+						<action type="FinalWar.ChooseTargetActionNode" value="GetCanShootHeroPosConditionConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="FinalWar.GetCanSupportHeroPosConditionNode"/>
+						<action type="FinalWar.ChooseTargetActionNode" value="GetCanSupportHeroPosConditionNode"/>
+					</sequence>
+					<sequence randomValue="1">
+						<condition type="FinalWar.GetCanSupportPosConditionNode"/>
+						<action type="FinalWar.ChooseTargetActionNode" value="GetCanSupportPosConditionNode"/>
+					</sequence>
+				</random>
+				<action type="FinalWar.MoveForwardActionNode" value="3"/>
+			</select>
+		</sequence>
 	</select>
 </sequence>
