@@ -2,6 +2,10 @@
 	<condition type="FinalWar.CheckHeroCanActionConditionNode"/>
 	<select>
 		<sequence>
+			<condition type="FinalWar.CheckHeroCanReachOppBaseConditionNode"/>
+			<action type="FinalWar.MoveForwardActionNode" value="3"/>
+		</sequence>
+		<sequence>
 			<condition type="FinalWar.CheckHeroTypeConditionNode" value="2"/>
 			<select>
 				<random>
