@@ -11,7 +11,9 @@ ID,eventName,effectType,priority,triggerTarget,conditionCompare,conditionType,co
 900007,fixCanCounterWhenDead,0,0,0,0,,,0,0,0$1,,战斗时即使受到致死伤害也会进行反击,,战斗时即使受到致死伤害也会进行反击
 900008,fixCanCounterWhenDead,0,0,0,0,,,0,0,0$1,recover,战斗时即使受到致死伤害也会进行反击，回合结束时消失,,战斗时即使受到致死伤害也会进行反击，回合结束时消失
 900009,fixBeAttackedPierceShield,0,0,0,0,,,0,0,0$1,,士气不抵消战斗伤害,,士气不抵消战斗伤害
-9000010,fixBeAttackedPierceShield,0,0,0,0,,,0,0,0$1,recover,士气不抵消战斗伤害，回合结束时消失,,士气不抵消战斗伤害，回合结束时消失
+900010,fixBeAttackedPierceShield,0,0,0,0,,,0,0,0$1,recover,士气不抵消战斗伤害，回合结束时消失,,士气不抵消战斗伤害，回合结束时消失
+900011,fixAttackPierceShield,0,0,0,0,,,0,0,0$1,,战斗伤害变为穿透伤害,,战斗伤害变为穿透伤害
+900012,fixAttackPierceShield,0,0,0,0,,,0,0,0$1,recover,战斗伤害变为穿透伤害，回合结束时消失,,战斗伤害变为穿透伤害，回合结束时消失
 //pve,,,,,,,,,,,,,,
 200001,fixSpeed,0,,6,,,,3,,0$1,,友方英雄速度提高1点,,友方英雄速度提高1点
 200002,roundOver,1,,0,,,,7,1,200001,,回合结束时，对一个随机敌方英雄造成1点穿透伤害,,回合结束时，对一个随机敌方英雄造成1点穿透伤害
