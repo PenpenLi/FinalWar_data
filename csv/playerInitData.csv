@@ -2,3 +2,4 @@ ID,名字,卡组数量,每回合补牌数量,每回合增加金钱数量,初始�
 int,string,int,int,int,int,int
 ID,name,deckCardsNum,addCardsNum,addMoney,defaultHandCardsNum,defaultMoney
 1,,10,1,3,4,10
+2,,15,2,6,4,10
