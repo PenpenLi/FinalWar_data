@@ -2,8 +2,8 @@ ID,触发事件名,光环效果类型(0修正int 1施放技能 2赋值int),优�
 int,string,int,int,int,int,int[],int[],int,int,int[],string[],bool,string,string,string
 ID,eventName,effectType,priority,triggerTarget,conditionCompare,conditionType,conditionData,effectTarget,effectTargetNum,effectData,removeEventNames,isShow,desc,hud,comment
 //通用,,,,,,,,,,,,,,,
-900001,triggerBornAura,0,,0,0,,,0,0,0$-1,,1,沉默,,沉默
-900002,triggerBornAura,0,,0,0,,,0,0,0$-1,recover,1,沉默，回合结束时消失,,沉默，回合结束时消失
+900001,triggerBornAura,0,,0,0,,,0,0,0$-1,,1,沉默,Silent,沉默
+900002,triggerBornAura,0,,0,0,,,0,0,0$-1,recover,1,沉默，回合结束时消失,Silent,沉默，回合结束时消失
 900003,fixEqualOppSpeed,0,0,0,0,,,0,0,0$1,,1,战斗时速度等于敌方英雄速度,,战斗时速度等于敌方英雄速度
 900004,fixEqualOppSpeed,0,0,0,0,,,0,0,0$1,recover,1,战斗时速度等于敌方英雄速度，回合结束时消失,,战斗时速度等于敌方英雄速度，回合结束时消失
 900005,fixAttackFirstWithHigherSpeed,0,0,0,0,,,0,0,0$1,,1,战斗时如果速度高于敌方英雄则必定先手攻击,,战斗时如果速度高于敌方英雄则必定先手攻击
